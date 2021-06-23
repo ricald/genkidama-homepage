@@ -26,15 +26,23 @@ html {
 
 header {
 	position: relative;
-	height: 90vh;
-	background: url(http://via.placeholder.com/799x400) center / cover;
+	height: 80vh;
+	background: url("./images/top.jpg") center / cover;
 }
 
-header h1 .subtitle {
+header .header_title {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	color: black;
+}
+
+header .header_title .subtitle {
 	font-size: 1.5rem;
 }
 
-header h1 .title {
+header .header_title h1 {
 	font-size: 4rem;
 }
 
@@ -45,7 +53,7 @@ header h1 .title {
 	clear: left;
 	margin-right: auto;
 	margin-left: auto;
-	padding-top: 10px;
+	padding-top: 100px;
 }
 
 /*メインコンテンツ
