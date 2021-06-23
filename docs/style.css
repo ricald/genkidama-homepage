@@ -81,7 +81,6 @@ header .header_title h1 {
 	clear: left;
 	margin-right: auto;
 	margin-left: auto;
-	padding-top: 100px;
 }
 
 /*メインコンテンツ
@@ -95,8 +94,8 @@ header .header_title h1 {
 	position: relative;
 	font-size: 2rem;
 	text-align: center;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 #main h2:before {
