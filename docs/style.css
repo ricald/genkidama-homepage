@@ -96,7 +96,7 @@ header h1 .title {
 
 .menu_item {
 	flex: 0 1 calc(50% - 4px);
-	margin: 2px;
+	margin: 2px 2px 10px 2px;
 	border: 1px solid #666666;
 	box-sizing: border-box;
 	opacity: 0;
