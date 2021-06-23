@@ -61,7 +61,7 @@ header::after {
 header .header_title {
 	position: absolute;
 	width: 100%;
-	bottom: 6vh;
+	bottom: calc(var(--vh) * 7);
 	text-align: center;
 	color: black;
 }
