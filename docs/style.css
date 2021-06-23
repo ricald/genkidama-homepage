@@ -118,6 +118,7 @@ header h1 .title {
 	position: absolute;
 	right: 5px;
 	bottom: 5px;
+	font-size: 1.25rem;
 	background-color: black;
 	color: white;
 }
@@ -133,7 +134,7 @@ header h1 .title {
 }
 
 .zei {
-	font-size: 0.8em;
+	font-size: 0.8rem;
 }
 
 /*フッター
