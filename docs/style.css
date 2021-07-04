@@ -150,27 +150,27 @@ header img {
 	margin: 2px;
 }
 
-.menu_price {
-	position: absolute;
-	right: 5px;
-	bottom: 5px;
-	font-size: 1.25rem;
-	background-color: black;
-	color: white;
-}
-
 .menu_image img {
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 	vertical-align: bottom;
 }
 
-.menu_name {
-	text-align: center;
+.menu_text {
+	max-width: 100%;
+	word-break: break-all;
+	overflow-wrap: break-word;
 }
 
-.zei {
-	font-size: 0.8rem;
+.menu_text .menu_name {
+	margin: 0.5rem;
+	text-align: center;
+	border-bottom: dashed 3px #666666;
+}
+
+.menu_text .menu_description {
+	margin: 0.5rem;
+	height: 4em;
 }
 
 /*フッター
