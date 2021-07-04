@@ -58,8 +58,8 @@ header img {
 	position: relative;
 	font-size: 2rem;
 	text-align: center;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
 }
 
 #main h2:before {
@@ -80,7 +80,7 @@ header img {
 
 .main_vidual {
 	position: relative;
-	height: calc(var(--vh) * 100);
+	height: calc(var(--vh) * 95);
 	background: url("./images/top.jpg") center / cover;
 }
 
