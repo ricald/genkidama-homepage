@@ -183,6 +183,23 @@ header img {
 	text-align: center;
 }
 
+/*TOPへ戻る
+---------------------------------------------------------------------------*/
+
+#page_top {
+	content: "";
+	width: 5rem;
+	height: 5rem;
+	position: fixed;
+	right: -5rem;
+	bottom: 1.5rem;
+	background-image: url("./images/to_top.png");
+	background-repeat: no-repeat;
+	background-size: 5rem;
+	box-shadow: 0 6px 5px -5px rgb(0 0 0 / 30%);
+	border-radius: 2.5rem;
+}
+
 @media screen and (min-width: 980px) {
 	html {
 		font-size: calc(980px / 32);
