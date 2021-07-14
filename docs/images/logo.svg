@@ -15,7 +15,7 @@
    version="1.1"
    id="svg1030"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="logo3.svg">
+   sodipodi:docname="logo4.svg">
   <defs
      id="defs1024" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="38.870616"
-     inkscape:cy="-78.26518"
+     inkscape:zoom="1.979899"
+     inkscape:cx="178.2519"
+     inkscape:cy="-21.264209"
      inkscape:document-units="in"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -92,10 +92,10 @@
        transform="matrix(-0.64982995,0.76007963,0.76007963,0.64982995,0,0)"
        r="15" />
     <path
-       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.3128286;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="M 6.9134397,30.743232 A 19.999998,19.999998 0 0 0 19.30855,47.382023 v 3.427698 h 2.5001 v -2.592099 -2.350241 -0.23513 A 17.499998,17.499998 0 0 1 9.4285297,30.743232 Z m 37.2892003,0 a 17.499998,17.499998 0 0 1 -12.39408,14.88386 v 0.240289 2.3456 2.59674 h 2.500111 v -3.445269 a 19.999998,19.999998 0 0 0 12.40596,-16.62122 z"
-       id="path1107"
-       inkscape:connector-curvature="0" />
+       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:1.18234432;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="M 10.082031 75.386719 A 75.590544 75.590544 0 0 0 56.929688 138.27344 L 56.929688 151.22852 L 66.378906 151.22852 L 66.378906 141.43164 L 66.378906 132.54883 L 66.378906 131.66016 A 66.141725 66.141725 0 0 1 19.587891 75.386719 L 10.082031 75.386719 z M 151.01758 75.386719 A 66.141725 66.141725 0 0 1 104.17383 131.64062 L 104.17383 132.54883 L 104.17383 141.41406 L 104.17383 151.22852 L 113.5918 151.22852 L 113.5918 151.24023 L 513.4043 151.24023 L 513.4043 143.68164 L 113.62305 143.68164 L 113.62305 138.20703 A 75.590544 75.590544 0 0 0 160.51172 75.386719 L 151.01758 75.386719 z "
+       transform="matrix(0.26458333,0,0,0.26458333,4.2461166,10.797351)"
+       id="path1107" />
     <circle
        style="opacity:0.21600001;fill:none;fill-opacity:1;stroke:none;stroke-width:0.19551788;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="circle1109"
@@ -103,13 +103,6 @@
        cy="-21.002079"
        transform="rotate(-165.08238)"
        r="12.5" />
-    <rect
-       y="48.871662"
-       x="34.300846"
-       height="2"
-       width="105.78372"
-       id="rect1111"
-       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.21300244;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
     <g
        aria-label="元気玉"
        style="font-size:34.21873474px;line-height:1.25;font-family:'Otsutome_font Bold';-inkscape-font-specification:'Otsutome_font Bold, ';writing-mode:lr-tb;stroke:none;stroke-width:1.02656209;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:normal"

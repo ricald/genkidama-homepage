@@ -32,6 +32,7 @@ header {
 	z-index: 90;
 	background-color: white;
 	box-shadow: 0 6px 5px -5px rgb(0 0 0 / 30%);
+	text-align: center;
 }
 
 header img {
