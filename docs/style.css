@@ -1,4 +1,4 @@
-﻿/*全体的な設定
+/*全体的な設定
 ---------------------------------------------------------------------------*/
 
 @charset "UTF-8";
@@ -122,6 +122,10 @@ header img {
 	opacity: 0;
 	transform: translate(0, 20px);
 	transition: all 1000ms;
+}
+
+.menu_item.large {
+	flex: 0 1 calc(100% - 4px);
 }
 
 .menu_item.scrollin {
