@@ -3,10 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,viewport-fit=cover">
   <meta name="title" content="元気玉(ソウルフードデリバリー専門店)">
   <meta name="description" content="元気玉はデリバリー専門で各地のソウルフードを販売しているお店です。" />
   <meta name="keywords" content="元気玉,ソウルフード,スパムおむすび,サーターアンダギー,沖縄" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons%7CMaterial+Icons+Outlined" rel="stylesheet">
   <link href="reset.css" rel="stylesheet" type="text/css" />
   <link href="style.css" rel="stylesheet" type="text/css" />
@@ -19,7 +20,23 @@
   <div id="container">
 
     <header>
-      <img src="./images/logo.svg">
+      <div class="header_inner">
+        <a href="#" class="header_logo">
+          <img src="./images/logo.svg">
+        </a>
+        <button class="header_hamburger" aria-label="メニューを開く">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="header_nav">
+          <a href="#spam" class="header_nav_link">Onigiri</a>
+          <a href="#donuts" class="header_nav_link">Donuts</a>
+          <a href="#soup" class="header_nav_link">Soup</a>
+          <a href="#drink" class="header_nav_link">Drinks</a>
+          <a href="#set" class="header_nav_link">Set</a>
+        </nav>
+      </div>
     </header>
 
     <div id="contents">
@@ -32,9 +49,9 @@
           </div>
         </div>
 
-        <h2>メニュー</h2>
+        <h2 id="menu">メニュー</h2>
 
-        <section class="menu_section">
+        <section class="menu_section" id="spam">
           <h3><i class="material-icons-outlined">rice_bowl</i>スパムおむすび</h3>
           <ul class="menu_container">
             <li class="menu_item">
@@ -127,7 +144,7 @@
           </ul>
         </section>
 
-        <section class="menu_section">
+        <section class="menu_section" id="donuts">
           <h3><i class="material-icons-outlined">icecream</i>サーターアンダーギー</h3>
           <ul class="menu_container">
             <li class="menu_item">
@@ -187,7 +204,7 @@
           </ul>
         </section>
 
-        <section class="menu_section">
+        <section class="menu_section" id="soup">
           <h3><i class="material-icons-outlined">local_cafe</i>スープ</h3>
           <ul class="menu_container">
             <li class="menu_item">
@@ -206,7 +223,7 @@
           </ul>
         </section>
 
-        <section class="menu_section">
+        <section class="menu_section" id="drink">
           <h3><i class="material-icons-outlined">local_bar</i>ドリンク</h3>
           <ul class="menu_container">
             <li class="menu_item">
@@ -290,7 +307,7 @@
           </ul>
         </section>
 
-        <section class="menu_section">
+        <section class="menu_section" id="set">
           <h3><i class="material-icons-outlined">brunch_dining</i>セットメニュー</h3>
           <ul class="menu_container">
             <li class="menu_item large">

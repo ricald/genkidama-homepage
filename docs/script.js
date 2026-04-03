@@ -2,6 +2,20 @@
   var pagetopAppear = false;
   var pagetop = $('#page_top');
 
+  // ハンバーガーメニュー
+  var hamburger = $('.header_hamburger');
+  var nav = $('.header_nav');
+
+  hamburger.click(function () {
+    hamburger.toggleClass('is-open');
+    nav.toggleClass('is-open');
+  });
+
+  nav.find('.header_nav_link').click(function () {
+    hamburger.removeClass('is-open');
+    nav.removeClass('is-open');
+  });
+
   // スクロールアニメーション
   $(window).scroll(function () {
     const wHeight = $(window).height();
